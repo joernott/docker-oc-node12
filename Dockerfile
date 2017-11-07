@@ -1,4 +1,4 @@
-FROM docker.ott-consult.de/oc/base:latest
+FROM registry.ott-consult.de/oc/base:latest
 MAINTAINER Joern Ott <joern.ott@ott-consult.de>
 
 
