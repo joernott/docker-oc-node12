@@ -1,7 +1,9 @@
 FROM registry.ott-consult.de/oc/base:latest
-MAINTAINER Joern Ott <joern.ott@ott-consult.de>
+LABEL MAINTAINER="joern.ott@ott-consult.de"
 
-ENV NODE_VERSION=8.9.3-1nodesource
+ENV NODE_VERSION=8.9.4-1nodesource \
+    GIT_COMMIT="x" \
+    IMAGE_HISTORY="x"
 
 COPY src /
 
