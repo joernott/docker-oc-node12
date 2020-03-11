@@ -5,5 +5,5 @@ curl -sSo src/tmp/install/functions.sh https://raw.githubusercontent.com/joernot
 source src/tmp/install/functions.sh
 
 patch_dockerfile
-docker build -t registry.ott-consult.de/oc/node8:latest .
-docker push registry.ott-consult.de/oc/node8:latest
+docker build -t registry.ott-consult.de/oc/node12:latest .
+docker push registry.ott-consult.de/oc/node12:latest
